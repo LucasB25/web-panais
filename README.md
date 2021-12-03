@@ -1,11 +1,9 @@
 <h1 align="center">Website Panaisdev</h1>
 
-- 🔭 I’m currently working on Panais.
-<br>
-       • Top.gg [Panais BOT](https://top.gg/bot/707627135577358417)
+- 🔭 I’m currently working on Panais.<br>
+       • Top.gg [Panais BOT](https://top.gg/bot/707627135577358417)<br>
 - 🔭 I’m currently working on Paesta-Tickets.
-<br>
-       • Top.gg [link BOT](https://top.gg/bot/912442038765633597)
+       • Top.gg [link BOT](https://top.gg/bot/912442038765633597)<br>
        • Github [link](https://github.com/LucasB25/tickets-bot)
 
 - 🤝 My bot list [bot list Web](https://consteagle.com)
