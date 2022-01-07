@@ -5,6 +5,8 @@
 - 🔭 I’m currently working on Paesta-Tickets.<br>
        • Link [Top.gg](https://top.gg/bot/912442038765633597)<br>
        • Link [Github](https://github.com/LucasB25/tickets-bot)
+- :telescope: I’m currently working on Paesta Music.<br>
+       • Link [ConstEagle](https://consteagle.com/bots/919721302783311914)<br>
 
 - 🤝 My bot list [bot list Web](https://consteagle.com)
 - 🤝 My website [link Web](https://consteagle.com)
