@@ -1,30 +1,505 @@
+
+<script async src="https://arc.io/widget.min.js#7aDa3zE7" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<!DOCTYPE html>
 <html lang="en">
-<nav class="navbar navbar-dark" role="navigation" aria-label="main navigation">
-	<div class="container">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://panaisdev.tk">
-    </a>
+<head>
+<meta charset="UTF-8">
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
+<title>DisTube - A Discord Music Bot</title>
+<meta name="description" content="YouTube • SoundCloud • Spotify • Live Stream • 512kbps • Reaction Controller • Audio Filtering • DJ Only Mode • User Custom Playlist • Reaction Voting • Autoplay Related Video">
+<meta name="theme-color" content="#ff4444" />
+<meta itemprop="name" content="DisTube - A Discord Music Bot">
+<meta itemprop="description" content="YouTube • Multiple Languages • SoundCloud • Spotify • Live Stream • 512kbps • Reaction Controller • Audio Filtering • DJ Only Mode • User Custom Playlist • Reaction Voting • Autoplay Related Video">
+<meta itemprop="image" content="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/banner.png">
+<meta property="og:url" content="https://skick.xyz/DisTube">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DisTube - A Discord Music Bot">
+<meta property="og:description" content="YouTube • SoundCloud • Spotify • Live Stream • 512kbps • Reaction Controller • Audio Filtering • DJ Only Mode • User Custom Playlist • Reaction Voting • Autoplay Related Video">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/banner.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DisTube - A Discord Music Bot">
+<meta name="twitter:description" content="YouTube • SoundCloud • Spotify • Live Stream • 512kbps • Reaction Controller • Audio Filtering • DJ Only Mode • User Custom Playlist • Reaction Voting • Autoplay Related Video">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/banner.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end">
-      <div class="navbar-item">
-      &nbsp;&nbsp;&nbsp;&nbsp;<a href="/patreon" class="social patreon"><i class="social-icon fab fa-patreon"></i>&nbsp;Patreon</a>
-      &nbsp;&nbsp;&nbsp;&nbsp;<a href="/github" class="social github"><i class="social-icon fab fa-github"></i>&nbsp;Github</a>
-      </div>
-      <div class="buttons">
-      &nbsp;&nbsp;<a href="/discord" class="button is-discord">
-        Discord
-      </a>
-		</div>
-      </div>
-    </div>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slicknav@1.0.8/dist/slicknav.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/css/typography.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/css/style.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/css/responsive.min.css">
+
+<link rel="shortcut icon" type="image/png" href="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/favicon.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5616156852742194" crossorigin="anonymous" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179415828-1" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script type="a51b6d3e41e920e2aae81b49-text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179415828-1');
+  </script>
+</head>
+<body>
+
+<div id="preloader">
+<div class="spinner"></div>
 </div>
-  </div>
+
+
+<header id="header">
+<div class="header-area">
+<div class="container">
+<div class="row">
+<div class="menu-area">
+<div class="col-lg-2 col-4">
+<div class="logo">
+<a href="."><img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/logo.png" alt="DisTube Logo"></a>
+</div>
+</div>
+<div class="col-lg-10 d-none d-lg-block">
+<div class="main-menu">
+<nav class="nav-menu">
+<ul>
+<li><a href="#feature">Features</a></li>
+<li><a href="#command">Commands</a></li>
+<li><a href="https://top.gg/bot/730011243041128478">Vote</a></li>
+<li><a href="https://status.skick.xyz" target="_blank">Uptime</a></li>
+<li><a href="https://patreon.com/DisTube" rel="noreferrer" target="_blank">Premium</a></li>
+<li><a href="https://discord.gg/feaDd9h" rel="noreferrer" target="_blank">Support</a></li>
+<li><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; window.open('https://discord.com/api/oauth2/authorize?client_id=730011243041128478&amp;permissions=62221392&amp;scope=bot%20applications.commands', 'newwindow', 'width=500,height=1150'); return false;" data-cf-modified-a51b6d3e41e920e2aae81b49-="">Invite</a>
+</li>
+</ul>
 </nav>
+</div>
+</div>
+<div class="col-8 d-md-block d-lg-none">
+<div class="mobile_menu"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<section class="slider-area">
+<div class="container">
+<div class="row">
+<div class="col-md text-center">
+<div class="slider-img">
+<img class="lazyload" data-src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/DisTube.png" alt="Icon">
+</div>
+</div>
+<div class="col-md">
+<div class="slider-inner text-right">
+<h1>DisTube</h1>
+<h5>A Discord Music Bot</h5>
+<a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; window.open('https://discord.com/api/oauth2/authorize?client_id=730011243041128478&amp;permissions=62221392&amp;scope=bot%20applications.commands', 'newwindow', 'width=500,height=1150')" data-cf-modified-a51b6d3e41e920e2aae81b49-="">
+Invite Now</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="stats-area" id="stats">
+<div class="container">
+<div class="row">
+<div class="col-1 d-md-block d-lg-none"></div>
+<div class="col-lg col-10">
+<div class="stats-single">
+<div class="icon"><i class="fad fa-users"></i></div>
+<p><span id="members" class="counter">
+4,961,043
+</span>
+</p>
+<h5>Members</h5>
+</div>
+</div>
+<div class="col-1 d-md-block d-lg-none"></div>
+<div class="col-1 d-md-block d-lg-none"></div>
+<div class="col-lg col-10">
+<div class="stats-single">
+<div class="icon"><i class="fad fa-server"></i></div>
+<p><span id="servers" class="counter">
+47,971
+</span>
+</p>
+<h5>Servers</h5>
+</div>
+</div>
+<div class="col-1 d-md-block d-lg-none"></div>
+<div class="col-1 d-md-block d-lg-none"></div>
+<div class="col-lg col-10">
+<div class="stats-single">
+<div class="icon"><i class="fad fa-sitemap"></i></div>
+<p><span id="shards" class="counter">
+48
+</span>
+</p>
+<h5>Shards</h5>
+</div>
+</div>
+<div class="col-1 d-md-block d-lg-none"></div>
+</div>
+</div>
+</div>
+<section class="feature-area bg-gray ptb--100" id="feature">
+<div class="container">
+<div class="section-title">
+<h2>Features</h2>
+<p>Made with DisTube.js.org module.</p>
+</div>
+<div class="row ft-row">
+<div class="col-sm-6 col-12">
+<div class="ft-content rtl" id="ft-react" data-aos="fade-down">
+<div class="ft-single">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/1.png" alt="icon">
+<div class="meta-content">
+<h2>Reaction Controller</h2>
+<p>Control the music without enter the commands.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-12">
+<div class="ft-screen-img" data-aos-anchor="#ft-react" data-aos="fade-left">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/React.png" alt="image">
+</div>
+</div>
+</div>
+<div class="row ft-row">
+<div class="col-sm-6 col-12">
+<div class="ft-screen-img" data-aos-anchor="#ft-filter" data-aos="fade-right">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/Filter.png" alt="image">
+</div>
+</div>
+<div class="col-sm-6 col-12">
+<div class="ft-content" id="ft-filter" data-aos="fade-up">
+<div class="ft-single">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/2.png" alt="icon">
+<div class="meta-content">
+<h2>Audio Filtering</h2>
+<p>Boost up your voice channel with 512kbps audio, bassboost, nightcore, and 18
+more filters.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row ft-row">
+<div class="col-sm-6 col-12">
+<div class="ft-content rtl" id="ft-dj" data-aos="fade-left">
+<div class="ft-single">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/3.png" alt="icon">
+<div class="meta-content">
+<h2>DJ Only Mode</h2>
+<p>Only DJ roles and users can control the music.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-12">
+<div class="ft-screen-img" data-aos-anchor="#ft-dj" data-aos="fade-right">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/DJ.png" alt="image">
+</div>
+</div>
+</div>
+<div class="row ft-row">
+<div class="col-sm-6 col-12">
+<div class="ft-screen-img" data-aos-anchor="#ft-playlist" data-aos="fade-right">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/Playlist.png" alt="image">
+</div>
+</div>
+<div class="col-sm-6 col-12">
+<div class="ft-content">
+<div class="ft-single" id="ft-playlist" data-aos="fade-left">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/4.png" alt="icon">
+<div class="meta-content">
+<h2>User's Custom Playlist</h2>
+<p>Create and play your custom music playlist globally.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row ft-row">
+<div class="col-sm-6 col-12">
+<div class="ft-content rtl" id="ft-vote" data-aos="fade-up">
+<div class="ft-single">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/5.png" alt="icon">
+<div class="meta-content">
+<h2>Vote to Skip | Stop</h2>
+<p>And many commands to make your best experience below.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-12" data-aos-anchor="#ft-vote" data-aos="fade-down">
+<div class="ft-screen-img">
+<img src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/img/feature/Vote.png" alt="image">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="achivement-area ptb--100">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-6">
+ <div class="ach-single">
+<div class="icon"><i class="fad fa-list-music"></i></div>
+<p><span class="counter">
+81
+</span>
+</p>
+<h5>Commands</h5>
+</div>
+</div>
+<div class="col-lg-3 col-6">
+<div class="ach-single">
+<div class="icon"><i class="fad fa-sliders-h"></i></div>
+<span class="counter">
+20
+</span>
+<h5>Audio Filters</h5>
+</div>
+</div>
+<div class="col-lg-3 col-6">
+<div class="ach-single">
+<div class="icon"><i class="fad fa-comment-music"></i></div>
+<p><span id="commands" class="counter">
+3,162,188
+</span>
+</p>
+<h5>Commands Used</h5>
+</div>
+</div>
+<div class="col-lg-3 col-6">
+<div class="ach-single">
+<div class="icon"><i class="fad fa-album-collection"></i></div>
+<span id="songs" class="counter">
+7,092,132
+</span>
+<h5>Songs Played</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="command-area bg-gray ptb--100" id="command">
+<div class="container">
+<div class="section-title">
+<h2>Main Commands</h2>
+<p>Use [@DisTube#8553 help] for full commands list.</p>
+</div>
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Commands</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>music-settings</th>
+<td>Change music settings (vote, autoplay, reaction, nsfw settings)</td>
+</tr>
+<tr>
+<th>setup</th>
+<td>Create an unique DisTube channel for requesting song.</td>
+</tr>
+<tr>
+<th>play</th>
+<td>Search &amp; Play a Youtube video. Or play music from Youtube video/playlist URL</td>
+</tr>
+<tr>
+<th>playskip</th>
+<td>Play a song or playlist and skip the current song</td>
+</tr>
+<tr>
+<th>filters</th>
+<td>List all available audio filters</td>
+</tr>
+<tr>
+<th>dj</th>
+<td>Show the DJ mode status, list of DJ roles and users</td>
+</tr>
+<tr>
+<th>playlists</th>
+<td>List all your custom playlist</td>
+</tr>
+<tr>
+<th>pause</th>
+<td>Pause/resume the current song</td>
+</tr>
+<tr>
+<th>resume</th>
+<td>Just a pause alias :&gt;</td>
+</tr>
+<tr>
+<th>repeat</th>
+<td>Change repeat mode to the entire queue or only the playing song</td>
+</tr>
+<tr>
+<th>skip</th>
+<td>Skip a number of songs (Need vote if enable)</td>
+</tr>
+<tr>
+<th>stop</th>
+<td>Stop a number of songs (Need vote if enable)</td>
+</tr>
+<tr>
+<th>volume</th>
+<td>Change volume</td>
+</tr>
+<tr>
+<th>help</th>
+<td>Get all of available commands or command description</td>
+</tr>
+<tr>
+<th>queue</th>
+<td>Show the server's queue</td>
+</tr>
+<tr>
+<th>prefix</th>
+<td>Change server's prefix</td>
+</tr>
+<tr>
+<th>autoplay</th>
+<td>Enable/disable autoplay related song when the queue is empty</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+
+
+
+
+<section class="team-area bg-gray ptb--100" id="team">
+<div class="container">
+<div class="section-title">
+<h2>Developers</h2>
+<p>Should be Developer :></p>
+</div>
+<div class="row">
+<div class="col-lg"></div>
+<div class="col-lg">
+<div class="single-team" data-aos="flip-down" data-aos-duration="1000">
+<div class="team-thumb">
+<img class="lazyload" data-src="https://cdn.discordapp.com/avatars/653848088280301571/577fa439a41cd8d70fb4223108e7e814.png?size=1024" alt="Skick">
+</div>
+<h4>Skick</h4>
+<span>Project Developer</span>
+<ul class="tst-social">
+<li><a href="https://fb.me/skick1234"><i class="fab fa-facebook"></i></a></li>
+<li><a href="https://github.com/skick1234"><i class="fab fa-github"></i></a></li>
+<li><a href="https://discord.gg/feaDd9h"><i class="fab fa-discord"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg"></div>
+</div>
+</div>
+</section>
+
+
+<section class="call-to-action ptb--100" id="download">
+<div class="container">
+<div class="section-title text-white">
+<h2>Invite DisTube Now!</h2>
+<p>Let's get the music party started!</p>
+</div>
+<div class="download-btns btn-area text-center">
+<a href="https://github.com/skick1234/DisTube" rel="noreferrer" target="_blank"><i class="fab fa-github"></i>
+GitHub</a>
+<a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; window.open('https://discord.com/api/oauth2/authorize?client_id=730011243041128478&amp;permissions=62221392&amp;scope=bot%20applications.commands', 'newwindow', 'width=500,height=1150'); return false;" data-cf-modified-a51b6d3e41e920e2aae81b49-="">
+<i class="fab fa-discord"></i> Invite
+</a>
+<a href="https://patreon.com/DisTube" rel="noreferrer" target="_blank"><i class="fab fa-patreon"></i>
+Premium</a>
+</div>
+</div>
+</section>
+
+
+<footer>
+<div class="footer-area">
+<div class="container">
+<p>
+
+Copyright &copy;
+<script type="a51b6d3e41e920e2aae81b49-text/javascript">
+            document.write(new Date().getFullYear());
+          </script> All rights reserved | <a href="https://colorlib.com" rel="noreferrer" target="_blank">Skick</a>
+
+</p>
+</div>
+</div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-ui@1.12.1/ui/effect.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/slicknav@1.0.8/dist/jquery.slicknav.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/skick1234/MaBu-CDN@4.9.0/DisTube/js/theme.min.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script type="a51b6d3e41e920e2aae81b49-text/javascript">
+    AOS.init({
+      once: true,
+      duration: 2000
+    });
+  </script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js" type="a51b6d3e41e920e2aae81b49-text/javascript"></script>
+<script type="a51b6d3e41e920e2aae81b49-text/javascript">
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyAM785Jif8XC3J30t6y_zWqCYgj2HfIYpU",
+      authDomain: "distube-bd97c.firebaseapp.com",
+      databaseURL: "https://distube-bd97c-default-rtdb.firebaseio.com",
+      projectId: "distube-bd97c",
+      storageBucket: "distube-bd97c.appspot.com",
+      messagingSenderId: "353000242122",
+      appId: "1:353000242122:web:1d43bdc0e75afcba7e6d33",
+      measurementId: "G-6MQJZ59QCW"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    ["songs", "commands", "members", "servers", "shards"].forEach(counter => {
+      let ref = firebase.database().ref("/info").child(counter);
+      ref.on("value", snapshot => {
+        const data = snapshot.val();
+        document.getElementById(counter).innerText = data.toString().replace(/\d(?=(\d{3})+$)/g, '$&,');
+      });
+    });
+  </script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a51b6d3e41e920e2aae81b49-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6d754cc5c8b96937","version":"2021.12.0","r":1,"token":"9c137e65193f4693bcf08fa0c1cdf31d","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
