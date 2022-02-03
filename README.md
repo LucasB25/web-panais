@@ -8,7 +8,6 @@
 
   <p align="center">
     <br />
-    <br />
     <a href="https://discord.gg/Mwjk8dVUQJ">Discord</a>
     ·
     <a href="https://discord.com/oauth2/authorize?client_id=707627135577358417&scope=bot&permissions=1240171147127&scope=bot%20applications.commands">Add to server</a>
@@ -22,4 +21,4 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot][product-screenshot]](http://panaisdev.tk)
+<iframe src="https://panaisdev.tk/" id="botiframe"></iframe>
