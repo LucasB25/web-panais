@@ -18,10 +18,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<iframe href="https://google.com"></iframe>
-
-
-<iframe height="1250px" width="100%" src="https://google.com">Update your browser! We can't display our website because your browser is out of date  :(</iframe>
+Bot is a versatile configurable bot ready to upgrade your Discord server.
+Also includes music from game utilities and much more!
