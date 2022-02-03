@@ -1,21 +1,22 @@
-<h1 align="center">Website Panaisdev</h1>
-
-- 🔭 I’m currently working on Panais.<br>
-       • Link [Top.gg](https://top.gg/bot/707627135577358417)<br>
-- 🔭 I’m currently working on Paesta-Tickets.<br>
-       • Link [Top.gg](https://top.gg/bot/912442038765633597)<br>
-       • Link [Github](https://github.com/LucasB25/tickets-bot)
-- :telescope: I’m currently working on Paesta Music.<br>
-       • Link [ConstEagle](https://consteagle.com/bots/919721302783311914)<br>
-
-- 🤝 My bot list [bot list Web](https://consteagle.com)
-- 🤝 My website [link Web](https://consteagle.com)
+<div id="top"></div>
+[![Contributors][contributors-shield]][contributors-url]
 
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/consteagle" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="consteagle" height="30" width="40" /></a>
-<a href="https://instagram.com/lucas.btts" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="lucas.btts" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/_misa0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="_misa0" height="30" width="40" /></a>
-<a href="https://discord.gg/https://discord.gg/D7pq3m3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/Mwjk8dVUQJ" height="30" width="40" /></a>
-</p>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://https://github.com/LucasB25/web-panais">
+    <img src="assets/panais.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best Panais</h3>
+</div>
+
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://panaisdev.tk)
