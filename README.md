@@ -21,4 +21,4 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<iframe src="https://panaisdev.tk/" id="botiframe"></iframe>
+<iframe href="https://google.com"></iframe>
