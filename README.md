@@ -22,9 +22,3 @@
 
 Bot is a versatile configurable bot ready to upgrade your Discord server.
 Also includes music from game utilities and much more!
-
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/web-panais/count.svg" />
-</p>
