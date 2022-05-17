@@ -15,10 +15,3 @@
     <a href="https://panaisdev.tk/#command">Commands</a>
   </p>
 </div>
-
-
-
-## About The Project
-
-Bot is a versatile configurable bot ready to upgrade your Discord server.
-Also includes music from game utilities and much more!
