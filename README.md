@@ -10,7 +10,7 @@
     <br />
     <a href="https://discord.gg/ATYQ8GsDHR">Discord</a>
     ·
-    <a href="https://discord.com/oauth2/authorize?client_id=707627135577358417&scope=bot%20applications.commands&permissions=8">Add to server</a>
+    <a href="https://discord.com/oauth2/authorize?response_type=code&client_id=707627135577358417&scope=bot+applications.commands&permissions=1644971945463">Add to server</a>
     ·
     <a href="https://panaisdev.tk/#command">Commands</a>
   </p>
